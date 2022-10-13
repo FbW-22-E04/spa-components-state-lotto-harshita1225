@@ -10,9 +10,18 @@ function RandomList() {
     const random3 = Math.ceil(Math.random() * 50);
     const random4 = Math.ceil(Math.random() * 50);
     const random5 = Math.ceil(Math.random() * 50);
+    const random6 = Math.ceil(Math.random() * 10);
 
     // console.log(random);
-    numberarray = [random0, random1, random2, random3, random4, random5];
+    numberarray = [
+      random0,
+      random1,
+      random2,
+      random3,
+      random4,
+      random5,
+      random6,
+    ];
     // console.log(numberarray);
 
     setAddNumber(numberarray);
